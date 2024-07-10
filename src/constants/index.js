@@ -42,6 +42,7 @@ export const PROJECTS = [
   {
     title: "ShopIT",
     image: project1,
+    url: "https://shopit-9ptj.onrender.com/",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, user authentication, reviews section and invoice download ",
     technologies: ["HTML", "CSS", "React", "ExpressJS", "Node.js", "MongoDB"],
@@ -49,24 +50,27 @@ export const PROJECTS = [
   {
     title: "GuestGuard",
     image: project2,
+    url: "https://guestguard.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application where guests can generate gatepasses by giving some basic information about them.It also has a feature for admins to send e-mails to the visitors if any kind of emergency occurs within the campus",
     technologies: ["HTML", "CSS", "React", "Firebase"],
   },
   {
     title: "End-to-End Dog Vision",
     image: project3,
+    url: "https://github.com/Hemangshu-Dey/end-to-end-dog-vision",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A deep learning project to detect the breed of a dog based on a given image.",
+    technologies: ["Python","Pandas", "Numpy", "Matplotlib", "Tensorflow", "Tensorflow-hub"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   url: "#",
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
